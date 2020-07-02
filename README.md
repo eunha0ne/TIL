@@ -4,7 +4,7 @@
 
 - vue.js with typescript
 
-  - https://vuejs.org/v2/guide/components.html#Using-v-model-on-Components
+  - [Using v-model on Components](https://vuejs.org/v2/guide/components.html#Using-v-model-on-Components)
   - https://github.com/kaorun343/vue-property-decorator#Emit
   - https://johnpapa.net/vue-typescript/
 
