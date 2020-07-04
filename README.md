@@ -2,14 +2,14 @@
 
 ## Keywords
 
-- vue.js with typescript
+- Vue.js with Typescript
 
   - [Using v-model on Components](https://vuejs.org/v2/guide/components.html#Using-v-model-on-Components)
   - [Vue property decorator](https://github.com/kaorun343/vue-property-decorator)
   - [Read: Vue typescript](https://johnpapa.net/vue-typescript/)
   - [Scoped slots](https://vuejs.org/v2/guide/components-slots.html#Scoped-Slots)
 
-- markup and modular css
+- Markup and Modular css
 
   - [HTML Element: input radio](https://developer.mozilla.org/ko/docs/Web/HTML/Element/Input/radio)
   - [Sass: At-rules](https://sass-lang.com/documentation/at-rules)
@@ -24,7 +24,7 @@
     - Bracket Pair Colorizer 2
     - Vuter
 
-- Rxjx
+- RxJs
 
   - [RxJs](https://rxjs.dev/guide/overview)
 
