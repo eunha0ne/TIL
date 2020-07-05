@@ -1,6 +1,6 @@
 # Linux
 
-목차: Table of Contents
+목차 - Table of Contents
 
 - [Commands](Commands)
 - [Permissions](#Permissions)
