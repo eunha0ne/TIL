@@ -33,3 +33,7 @@
 - NPM
 
   - [CLI document](https://docs.npmjs.com/cli-documentation/)
+
+- Linux
+
+  - https://linuxize.com/post/how-to-exclude-files-and-directories-with-rsync/#conclusion
