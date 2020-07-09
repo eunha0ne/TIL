@@ -38,7 +38,7 @@
     - https://linuxize.com/post/how-to-exclude-files-and-directories-with-rsync
     - https://linuxize.com/post/how-to-use-rsync-for-local-and-remote-data-transfer-and-synchronization/
 
-- 텍스트 편집기
+- IDE
 
   - WebStorm
 
@@ -48,3 +48,7 @@
 
     - Bracket Pair Colorizer 2
     - Vuter
+
+- GIT
+
+  - https://stackoverflow.com/questions/11709885/git-rebase-merge-conflict
