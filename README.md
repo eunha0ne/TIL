@@ -22,9 +22,6 @@
 - 생산성 도구
 
   - pickpick
-  - VSCode extension:
-    - Bracket Pair Colorizer 2
-    - Vuter
 
 - RxJs
 
@@ -36,4 +33,18 @@
 
 - Linux
 
-  - https://linuxize.com/post/how-to-exclude-files-and-directories-with-rsync/#conclusion
+  - Rsync
+
+    - https://linuxize.com/post/how-to-exclude-files-and-directories-with-rsync
+    - https://linuxize.com/post/how-to-use-rsync-for-local-and-remote-data-transfer-and-synchronization/
+
+- 텍스트 편집기
+
+  - WebStorm
+
+    - [단축키](https://resources.jetbrains.com/storage/products/webstorm/docs/WebStorm_ReferenceCard.pdf)
+
+  - VSCode
+
+    - Bracket Pair Colorizer 2
+    - Vuter
