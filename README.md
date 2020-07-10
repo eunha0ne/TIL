@@ -29,26 +29,30 @@
 
 - NPM
 
-  - [CLI document](https://docs.npmjs.com/cli-documentation/)
+  - [CLI Document](https://docs.npmjs.com/cli-documentation/)
 
 - Linux
 
   - Rsync
 
-    - https://linuxize.com/post/how-to-exclude-files-and-directories-with-rsync
-    - https://linuxize.com/post/how-to-use-rsync-for-local-and-remote-data-transfer-and-synchronization/
+    - [Read: How to exclude files and directories with rsync](https://linuxize.com/post/how-to-exclude-files-and-directories-with-rsync)
+    - [Read: How to use rsync for local and remote data transfer and synchronization](https://linuxize.com/post/how-to-use-rsync-for-local-and-remote-data-transfer-and-synchronization/)
 
 - IDE
 
   - WebStorm
 
     - [단축키](https://resources.jetbrains.com/storage/products/webstorm/docs/WebStorm_ReferenceCard.pdf)
+    - [Plugin: String manipulation](https://plugins.jetbrains.com/plugin/2162-string-manipulation)
 
   - VSCode
 
-    - Bracket Pair Colorizer 2
-    - Vuter
+    - Extenstion: Bracket Pair Colorizer 2
+    - Extenstion: Vuter
 
 - GIT
 
-  - https://stackoverflow.com/questions/11709885/git-rebase-merge-conflict
+  - Rebase
+
+    - [Track: Git rebase merge confilct](https://stackoverflow.com/questions/11709885/git-rebase-merge-conflict)
+    - [Read: Rebasing](http://gitforteams.com/resources/rebasing.html)
