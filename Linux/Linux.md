@@ -3,24 +3,50 @@
 목차 - Table of Contents
 
 - [Commands](Commands)
-- [Permissions](#Permissions)
+- [Permissions: 권한 설정과 표기](#Permissions:-권한-설정과-표기)
 - [Issues](#Issues)
   - CheckPermissions Missing write access
-- [Reference](#Reference)
 
 ## Commands
 
 > 리눅스 기본 명령어 모음
 
-NOTE:
+- 파일 및 폴더 삭제:
 
-- `rm` 명령어로 폴더를 삭제할 때는 재귀적으로 파일을 삭제할 수 있도록 `-r` 옵션을 사용한다.
+  ```zsh
+  rm FILE|DIRECTORY...
+
+  # 폴더를 삭제할 때는 재귀적으로 파일을 삭제할 수 있도록 `-r` 옵션을 사용한다.
+  rm -r FILE|DIRECTORY...
+  ```
+
+- 파일 생성:
+
+  ```bash
+  # 기본적으로 파일을 생성하고, 이미 존재하는 경우에는 `time stamp`를 갱신한다.
+  touch [OPTION]... FILE...
+  ```
+
+- 폴더 생성:
+
+  ```zsh
+  # 없는 경우에는 폴더를 생성한다.
+  mkdir [OPTION]... DIRECTORY...
+  ```
+
+- 자원 이동(이름 변경):
+
+  ```zsh
+  # 오리진 자원은 삭제되고, 명시한 폴더 또는 이름으로 이동함
+  mv [OPTION]... SOURCE... DESTINATION
+  ```
 
 참고:
 
-- https://linoxide.com/linux-command/essential-linux-basic-commands/
+- [Read: Essential Linux Basic Commands](https://linoxide.com/linux-command/essential-linux-basic-commands/)
+- [Read: 37-important-linux-commands-you-should-know](https://www.howtogeek.com/412055/37-important-linux-commands-you-should-know/)
 
-## Permissions
+## Permissions: 권한 설정과 표기
 
 ```zsh
 # 폴더 및 파일 권한을 출력하는 명령어:
@@ -74,7 +100,14 @@ r-- = 100 in binary = 4
 chmod 600 {file,dir}
 ```
 
-## Issues
+참고:
+
+- http://linuxcommand.org/lc3_lts0090.php
+- https://www.byteworks.com/understanding-osx-permissions/
+
+## Issue
+
+> 트러블 슈팅 기록
 
 ### CheckPermissions Missing write access
 
@@ -98,8 +131,3 @@ NOTE:
 참고:
 
 - https://flaviocopes.com/npm-fix-missing-write-access-error/
-
-## Reference
-
-- Permissions
-  - http://linuxcommand.org/lc3_lts0090.php
