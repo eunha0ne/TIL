@@ -21,7 +21,11 @@
 
 - 생산성 도구
 
-  - pickpick
+  - PickPick
+  - Bear App (macOS)
+  - Notion
+  - ScreenToGif
+  - LightShot (Windows, macOS: `쉬프트 + 커맨드 + 5`)
 
 - RxJs
 
@@ -47,7 +51,7 @@
 
   - VSCode
 
-    - Extenstion:
+    - Extension:
 
       - Bracket Pair Colorizer 2: It allows to matching brackets to be identified with colors.
       - Vuter: Vue tooling for VS Code.
