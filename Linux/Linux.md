@@ -48,6 +48,9 @@
 
 ## Permissions: 권한 설정과 표기
 
+> The Macintosh OSX platform is based on Unix, and thus, the POSIX permissions model. With OSX, you can augment these permissions with Access Control Lists (ACLs).
+> Unix/Linux systems utilize a relatively basic structure for permissions. Each object, be it a file or folder, has 9 bits of metadata used in determining who or what has the ability to access it.
+
 ```zsh
 # 폴더 및 파일 권한을 출력하는 명령어:
 ls -l
@@ -67,9 +70,7 @@ drwxrwxrwx
 | :-------: | :-------: | :-------: | :---------: |
 | 파일 타입 | 파일 오너 | 그룹 오너 | 모든 사용자 |
 
-- r: Read
-- w: Write
-- x: Execute
+> Each 3-bit section has a specific value for each individual bit. As in all binary, if that bit is a 1, access for that permission type is turned on; if it is a zero, the permission type is turned off. These three types of access are read (R), write (W), and execute (X).
 
 ### 이진수 표현과 변환 값
 
