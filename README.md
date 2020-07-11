@@ -1,6 +1,6 @@
 # TIL: Today I Learned
 
-공부한 내용을 기록하는 저장소입니다.
+> 공부한 내용을 기록하거나 다음 참고를 위해 키워드를 관리하는 저장소입니다.
 
 ## Keywords
 
@@ -47,8 +47,10 @@
 
   - VSCode
 
-    - Extenstion: Bracket Pair Colorizer 2
-    - Extenstion: Vuter
+    - Extenstion:
+
+      - Bracket Pair Colorizer 2
+      - Vuter
 
 - GIT
 
@@ -56,3 +58,7 @@
 
     - [Track: Git rebase merge confilct](https://stackoverflow.com/questions/11709885/git-rebase-merge-conflict)
     - [Read: Rebasing](http://gitforteams.com/resources/rebasing.html)
+
+  - Git-flow
+
+    - [Read: 우리는 Git-flow를 사용하고 있어요](https://woowabros.github.io/experience/2017/10/30/baemin-mobile-git-branch-strategy.html)
