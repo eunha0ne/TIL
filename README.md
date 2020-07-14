@@ -47,6 +47,7 @@
   - WebStorm
 
     - [단축키](https://resources.jetbrains.com/storage/products/webstorm/docs/WebStorm_ReferenceCard.pdf)
+      - Find usages: `알트 + F7` (Window)
     - [Plugin: String manipulation](https://plugins.jetbrains.com/plugin/2162-string-manipulation)
 
   - VSCode

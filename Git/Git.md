@@ -65,7 +65,7 @@ git rebase --continue
 # 임시 저쟝:
 git stash
 
-# 저장된 내용 다시 적용:
+# 저장된 내용 꺼내기(다시 적용):
 git stash pop
 
 # 저장된 내용 버리기:
