@@ -10,6 +10,9 @@
 
 - [실용주의 프런트 엔드 개발](https://peter-cho.gitbook.io/book/)
 - [Why I Stopped Using Redux](https://dev.to/g_abud/why-i-quit-redux-1knl)
+- [웹폰트 경량화](https://www.44bits.io/ko/post/optimization_webfont_with_pyftsubnet)
+- [타입스크립트를 위한 클린 코드](https://738.github.io/clean-code-typescript/)
+- [자바스크립트 개발자를 위한 타입스크립트](https://ahnheejong.gitbook.io/ts-for-jsdev/)
 
 ### 소프트웨어 공학
 
@@ -27,7 +30,7 @@
 - [보다 효율적인 Form 설계](https://brunch.co.kr/@blackindigo-red/3)
 - [상황에 맞는 로딩 애니메이션 적용하기](https://medium.com/myrealtrip-product/%EC%83%81%ED%99%A9%EC%97%90-%EB%A7%9E%EB%8A%94-%EB%A1%9C%EB%94%A9-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-2018af51c197)
 
-### 리더쉽, 팀 빌딩
+### 리더십, 팀 빌딩
 - [앞에서 이끄는 것이 리더?딩... 리더의 역할은 무엇일까?](https://support.google.com/webmasters/answer/7451184?hl=ko)
 
 ### 공부법
