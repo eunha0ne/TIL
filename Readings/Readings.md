@@ -13,6 +13,12 @@
 - [웹폰트 경량화](https://www.44bits.io/ko/post/optimization_webfont_with_pyftsubnet)
 - [타입스크립트를 위한 클린 코드](https://738.github.io/clean-code-typescript/)
 - [자바스크립트 개발자를 위한 타입스크립트](https://ahnheejong.gitbook.io/ts-for-jsdev/)
+- [시니어 프론트엔드 개발자처럼 크롬 개발자도구 사용하기](https://junwoo45.github.io/2020-07-28-chrome_devtools/)
+
+### CI/CD
+
+- [깃헙 액션을 사용해서 애저 블롭 저장소에 정적 웹사이트 배포하기](https://blog.aliencube.org/ko/2019/12/13/publishing-static-website-to-azure-blob-storage-via-github-actions/)
+- [GitHub Actions로 Vuepress 배포하기](http://milooy.github.io/TIL/DevOps/vupress-github-actions.html)
 
 ### 소프트웨어 공학
 
