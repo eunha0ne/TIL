@@ -1,6 +1,6 @@
 # TIL: Today I Learned
 
-> 공부한 내용을 기록하거나 다음 참고를 위해 키워드를 관리하는 저장소입니다.
+> 공부한 내용을 기록하고 참고를 위해 키워드를 관리합니다.
 
 ## Keywords
 
@@ -8,7 +8,7 @@
 
   - [Using v-model on Components](https://vuejs.org/v2/guide/components.html#Using-v-model-on-Components)
   - [Vue property decorator](https://github.com/kaorun343/vue-property-decorator)
-  - [Read: Vue typescript](https://johnpapa.net/vue-typescript/)
+  - [Read:a Vue typescript](https://johnpapa.net/vue-typescript/)
   - [Scoped slots](https://vuejs.org/v2/guide/components-slots.html#Scoped-Slots)
 
 - Markup and Modular css
