@@ -1,19 +1,25 @@
 # shell-script
 
-> 참고 자료의 `BASH 쉘 스크립트 문서`를 바탕으로 키워드를 정리
+목차:
+
+- [들어가기](#들어가기)
+    - 기본 용어 정리
+    - `프로그래밍 언어`와 `스크립트 프로그래밍 언어`의 차이
+    - 스크립트 프로그래밍 언어
+- [쉘 스크립트 작성](#쉘-스크립트-작성)
+    - 쉘 스크립트 작성을 위한 사전 지식
+    - 파일 생성과 권한 설정
 
 ## 들어가기
 
-기본 용어 정리: 
+### 기본 용어 정리
 
 - TERMINAL: 컴퓨팅 시스템에 데이터를 입력하거나 표시하는데 쓰이는 사용자 인터페이스.
 - SHELL: 터미널에서 동작하는 프로그램으로 명령어 인터프리터(해석기)이자 프로그래밍 언어이다. 간단히 말해, 매크로 전처리기이다. 매크로 전처리기는 특정 언어에 제약 받지 않는 독립된 프로그램 형태일 수 있으며, 약속된 텍스트와 심볼을 통해 기능적으로 수행된다. 이러한 확장된 표현식의 실행은 내부의 구체적이고 복잡한 수행이 감추어진 상태로 미리 정의된 동작을 이행한다.
 - SH(SHell): `sh`는 쉘 종류 중 하나이다. POSIX 시스템과 호환성을 가지며 표준이다.
 - BASH(Bourne-Again SHell): `bash`는 쉘 종류 중 하나이며, `sh`를 호환하며 더 많은 기능을 제공한다. 여러 운영체제의 기본 쉘로 광범위하게 사용된다.
 
-## `프로그래밍 언어`와 `스크립트 프로그래밍 언어`
-
-### 차이
+### `프로그래밍 언어`와 `스크립트 프로그래밍 언어`의 차이
 
 프로그래밍 언어는 소스 코드를 컴파일 하는 과정이 필요하지만 스크립팅 언어는 실행 가능한 파일로 만들기 위한 과정이 없다. 번역기(interpreter)가 소스 파일에서 지시문을 읽고 각 지시문을 실행시킨다. 
 
@@ -33,18 +39,36 @@
 
 - 소스 파일을 어떤 운영 체제에나 쉽게 이식할 수 있으며, 번역기를 통해 바로 실행할 수 있다.
 
-## 쉘 스크립트 작성을 위한 사전 지식
+## 쉘 스크립트 작성
+
+### 쉘 스크립트 작성을 위한 사전 지식
 
 - 리눅스 명령어
 - 텍스트 편집기 사용법: 리눅스 (Vi, Emacs, Pico)
 - (스크립팅을 공부할 때는 루트 권한이 없는 일반 사용자 계정을 사용하자.)
 
-## 참고
+### 파일 생성과 권한 설정
 
+.sh 확장자로 파일을 생성하고 문서의 첫번째 라인을 아래와 같이 선언하여 사용할 쉘을 정의한다.
+
+```bash
+#!/bin/bash
+echo "Hello World"
+```
+
+쉘 스크립트를 실행하기 위해서는 권한 설정이 필요할 수 있다.
+
+```bash
+chmod 755 {파일 이름} 
+```
+
+## Reference
+
+- [Read: Shellscript](https://www.shellscript.sh/index.html)
+- [Read: BASH 쉘 스크립팅 입문](http://coffeenix.net/doc/shell/introbashscript.htm)
 - [Read: 배시](https://ko.wikipedia.org/wiki/%EB%B0%B0%EC%8B%9C_(%EC%9C%A0%EB%8B%89%EC%8A%A4_%EC%85%B8))
 - [Read: 쉘 스크립트](https://ko.wikipedia.org/wiki/%EC%85%B8_%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8)
 - [Read: Macro processor](https://www.ibm.com/support/knowledgecenter/SSUFAU_2.0.0/com.ibm.ent.pl1.zos.doc/pg/makropp.html)
 - [Read: General purpose macro processor](https://en.wikipedia.org/wiki/General-purpose_macro_processor)
 - [Track: Difference between sh and bash](https://stackoverflow.com/questions/5725296/difference-between-sh-and-bash)
-- [Track: How do i prompt for yes no cancel input in a linux shell script](https://stackoverflow.com/questions/226703/how-do-i-prompt-for-yes-no-cancel-input-in-a-linux-shell-script)
-- [Read: BASH 쉘 스크립팅 입문](http://coffeenix.net/doc/shell/introbashscript.htm)
+
