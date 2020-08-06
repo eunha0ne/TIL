@@ -1,3 +1,4 @@
+const path = require("path");
 const { description } = require('../../package')
 
 module.exports = {
@@ -49,6 +50,13 @@ module.exports = {
         children: [
           'HTML/html.md'
         ]
+      },
+      {
+        title: 'IDE',
+        children: [
+          'IDE/',
+          'IDE/Webstorm.md'
+        ]
       }
     ]
   },
@@ -59,5 +67,13 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
-  ]
+  ],
+
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@assets': path.resolve(__dirname, "../assets")
+      }
+    }
+  }
 }
