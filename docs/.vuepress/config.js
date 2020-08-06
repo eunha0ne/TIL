@@ -75,5 +75,7 @@ module.exports = {
         '@assets': path.resolve(__dirname, "../assets")
       }
     }
-  }
+  },
+
+  dest: 'public'
 }
