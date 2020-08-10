@@ -14,3 +14,6 @@ dist
 .basement
 config.local.js
 basement_dist
+
+# Build Output
+public
