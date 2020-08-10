@@ -72,7 +72,7 @@ module.exports = {
   configureWebpack: {
     resolve: {
       alias: {
-        '@assets': path.resolve(__dirname, "../assets")
+        '@assets': path.join(__dirname, './public/assets')
       }
     }
   },
