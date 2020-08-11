@@ -57,6 +57,45 @@ module.exports = {
           'IDE/',
           'IDE/Webstorm.md'
         ]
+      },
+      {
+        title: 'Linux',
+        children: [
+          'Linux/Linux.md',
+          'Linux/shell-script.md'
+        ]
+      },
+      {
+        title: 'macOS',
+        children: [
+          'macOS/git-auto-completion.md',
+          'macOS/macOS.md'
+        ]
+      },
+      {
+        title: 'NPM',
+        children: [
+          'npm/npm.md'
+        ]
+      },
+      {
+        title: 'readings',
+        children: [
+          'readings/readings.md'
+        ]
+      },
+      {
+        title: 'Vim',
+        children: [
+          'Vim/Vim.md'
+        ]
+      },
+      {
+        title: 'Vue',
+        children: [
+          'Vue/Vue.md',
+          'Vue/vue-press.md'
+        ]
       }
     ]
   },
