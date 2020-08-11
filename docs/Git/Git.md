@@ -64,14 +64,26 @@ git rebase --continue
 ### 커밋하기 전 내용을 임시 저장하는 방법
 
 ```bash
-# 임시 저쟝:
+# (스택에) 임시 저쟝:
 git stash
 
-# 저장된 내용 꺼내기(다시 적용):
+# 저장된 내용 (스택에서) 꺼내기:
 git stash pop
 
 # 저장된 내용 버리기:
+# (이름을 지정하지 않으면 가장 최근 내용을 반영한다.)
 git stash drop
+git satsh drop [stash 이름]
+
+# 저장된 목록 확인:
+git stash list
+
+# 저장된 내용 전체 지우기:
+git stash clear
+
+# 저장된 내용을 불러오기 (스택에 저장된 내용은 그대로 유지):
+git stash
+git stash apply [stash 이름]
 ```
 
 ## Reference
@@ -83,3 +95,4 @@ git stash drop
 - [How to clean up git branches](https://devconnected.com/how-to-clean-up-git-branches/)
 - [Cleaning up old git branches](http://ericfarkas.com/posts/cleaning-up-old-git-branches)
 - [게임으로 배우는 깃 명령어](https://learngitbranching.js.org/?locale=ko)
+- [Git stash 명령어 사용하기](https://gmlwjd9405.github.io/2018/05/18/git-stash.html)
