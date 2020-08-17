@@ -40,6 +40,18 @@ module.exports = {
     ],
     sidebar: [
       {
+        title: 'books',
+        children: [
+          'books/객체지향의-사실과-오해.md'
+        ]
+      },
+      {
+        title: 'Career',
+        children: [
+          'Career/'
+        ]
+      },
+      {
         title: 'Git',
         children: [
             'Git/Git.md'
@@ -79,9 +91,9 @@ module.exports = {
         ]
       },
       {
-        title: 'readings',
+        title: 'TIR',
         children: [
-          'readings/readings.md'
+          'TIR/'
         ]
       },
       {
