@@ -71,6 +71,12 @@ module.exports = {
         ]
       },
       {
+        title: 'JavaScript',
+        children: [
+          'JavaScript/'
+        ]
+      },
+      {
         title: 'Linux',
         children: [
           'Linux/Linux.md',
