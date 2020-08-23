@@ -54,8 +54,8 @@ exports.sideBarList = [
     {
         title: 'macOS',
         children: [
+            'macOS/',
             'macOS/git-auto-completion.md',
-            'macOS/macOS.md'
         ]
     },
     {
