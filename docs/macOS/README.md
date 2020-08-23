@@ -20,7 +20,7 @@ chflags hidden ~/usr
 
 ## 내장 컬러 픽커 사용하기
 
-![디지털 컬러 측정기](@assets/macOS/color-picker.png)
+![디지털 컬러 측정기](@assets/mac-os/color-picker.png)
 
 - `커맨드` + `스페이스` 사용해서 `디지털 컬러 측정기` 검색. (`컬러` 입력하면 자동 완성)
 - `상단 메뉴` > `값 표시` > `16 진수`로 변경
