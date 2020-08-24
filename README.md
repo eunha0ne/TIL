@@ -1,5 +1,5 @@
 # TIL
 
-Today I Learned:
+Today I Learned
 
-공부한 내용을 기록하고 참고를 위해 키워드를 관리합니다.
+> 기록을 통해서 성장하기. 

@@ -1,4 +1,4 @@
-# npm: Node Package Manager
+# NPM: Node Package Manager
 
 `Node.js`가 필요한 이유:
 

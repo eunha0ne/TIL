@@ -1,6 +1,6 @@
 # DevEnvironment
 
-`.gitignore` 파일을 규칙에 따라 작성하기:
+`.gitignore` 파일 작성법:
 
 ```
 # 모든 .a 파일 무시하기
