@@ -1,6 +1,8 @@
-# HTML: HyperText Markup Language
+# HTML
 
-**HTML은 웹에서 정보를 표현할 목적으로 만든 `기술적 마크업 언어`이다.** 1991년 웹의 창시자인 유럽입자물리연구소의 `팀 버너스-리`가 인터넷상의 정보를 표현하는 언어로 개발하였다.
+[[toc]]
+
+**HTML: HyperText Markup Language**은 웹에서 정보를 표현할 목적으로 만든 `기술적 마크업 언어`이다.** 1991년 웹의 창시자인 유럽입자물리연구소의 `팀 버너스-리`가 인터넷상의 정보를 표현하는 언어로 개발하였다.
 
 ## 특징과 단점
 
@@ -28,19 +30,20 @@
 문서는 다양한 요소(element)들의 조합으로 이루어지며, 요소는 시작태그, 내용(content), 그리고 종료태그로 구성되는 하나의 명령어에 해당한다.
 
 ```html
-<!-- 
-  요소(element)의 구성 형태
-  <start-tag attribute:="arguments">contents</end-tag>
--->
+<!-- 요소(element)의 구성 형태 -->
+<start-tag attribute:="arguments">contents</end-tag>
+```
+
+```html
 <p style="text-align: center">This is a paragraph</p>
 ```
 
 ```html
 <!-- 기본 구조 -->
 <!DOCTYPE html>
-<html>
+<html lang="ko">
   <head>
-    <meta carhset="UTF-8">
+    <meta charset="UTF-8">
     <title>문서의 제목<title>
   </head>
   <body>
