@@ -28,7 +28,8 @@ exports.sideBarList = [
     {
         title: 'HTML',
         children: [
-            'HTML/html.md'
+            'HTML/',
+            'HTML/tags.md'
         ]
     },
     {
