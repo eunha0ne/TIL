@@ -12,6 +12,12 @@ exports.sideBarList = [
         ]
     },
     {
+        title: 'CSS',
+        children: [
+            'CSS/media-query.md'
+        ]
+    },
+    {
         title: 'DevEnvironment',
         children: [
             'DevEnvironment/',
@@ -42,7 +48,8 @@ exports.sideBarList = [
     {
         title: 'JavaScript',
         children: [
-            'JavaScript/'
+            'JavaScript/',
+            'JavaScript/document-object-model.md'
         ]
     },
     {
