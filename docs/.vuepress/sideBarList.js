@@ -51,7 +51,8 @@ exports.sideBarList = [
         title: 'JavaScript',
         children: [
             'JavaScript/',
-            'JavaScript/document-object-model.md'
+            'JavaScript/DOM.md',
+            'JavaScript/window.md'
         ]
     },
     {
