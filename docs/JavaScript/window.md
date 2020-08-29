@@ -21,3 +21,7 @@ if (isMatchMedia("(prefers-color-scheme: Dark)")) {
     // 사용자 선호가 어두운 색상 (Dark Mode) 
 }
 ```
+
+## Reference 
+
+- [https://developer.mozilla.org/ko/docs/Web/API/Window/matchMedia](https://developer.mozilla.org/ko/docs/Web/API/Window/matchMedia)

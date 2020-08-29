@@ -20,3 +20,7 @@ const {
     height 
 } = $element.getBoundingClientRect();
 ```
+
+## Reference
+
+- [https://developer.mozilla.org/ko/docs/Web/API/Element/getBoundingClientRect](https://developer.mozilla.org/ko/docs/Web/API/Element/getBoundingClientRect)
