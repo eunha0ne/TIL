@@ -14,7 +14,9 @@ exports.sideBarList = [
     {
         title: 'CSS',
         children: [
-            'CSS/media-query.md'
+            'CSS/',
+            'CSS/media-query.md',
+            'CSS/pseudo.md'
         ]
     },
     {
