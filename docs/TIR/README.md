@@ -17,9 +17,10 @@
 
 - [디자인 시스템](https://twitter.com/yongho1037/status/1288874920198340608?s=12)
 
-### 생산성 도구
+### 생산성 & 개발 방법론
 
 - [노션으로 일잘러 되기 프로젝트 매거진](https://brunch.co.kr/magazine/notion-work)
+- [개발 문화: 칸반 이야기](https://brunch.co.kr/@seonology/6)
 
 ### 커리어 관리
 
