@@ -37,6 +37,7 @@ exports.sideBarList = [
         title: 'HTML',
         children: [
             'HTML/',
+            'HTML/semantic-markup.md',
             'HTML/tags.md'
         ]
     },
@@ -51,7 +52,8 @@ exports.sideBarList = [
         title: 'JavaScript',
         children: [
             'JavaScript/',
-            'JavaScript/document-object-model.md'
+            'JavaScript/DOM.md',
+            'JavaScript/window.md'
         ]
     },
     {

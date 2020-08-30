@@ -20,7 +20,7 @@ Content model:
 ```html
 <script type="module" src="./main.js"></script>
 <script type="module" src="./hello-world.js"></script>
-                                           
+
 <!-- 미지원 브라우저를 위한 대체 스크립트 제공 -->
 <script nomodule src="./main-fallback.js"></script>
 ```
@@ -31,7 +31,7 @@ import { HelloWorld } from './hello-world.js';
 
 HelloWorld.print();
 
-// components/hello-world.js
+// hello-world.js
 export const HelloWorld = { 
     print() { 
         console.log('HelloWorld');

@@ -1,8 +1,6 @@
-# DOM
+# Document Object Model
 
-## Web API
-
-### Element.getBoundingClientRect()
+## Element.getBoundingClientRect()
 
 ![함수의 결과값을 이차원 위에서 표현한 참고 이미지](@assets/javascript/dom/rect.png)
 
@@ -22,3 +20,7 @@ const {
     height 
 } = $element.getBoundingClientRect();
 ```
+
+## Reference
+
+- [https://developer.mozilla.org/ko/docs/Web/API/Element/getBoundingClientRect](https://developer.mozilla.org/ko/docs/Web/API/Element/getBoundingClientRect)
