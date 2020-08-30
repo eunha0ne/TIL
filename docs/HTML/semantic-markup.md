@@ -28,11 +28,12 @@
     - `blockquote`: 인용문
     - `abbr`: 약자표기
     
-## 콘텐츠 섹셔닝
+### 콘텐츠 섹셔닝
     
 ![HTML5 element flowchart](@assets/html/semantic-markup/flow-chart.png)
 
-컨텐츠 모델(Contents Model)
+### 컨텐츠 모델(Contents Model)
+
 - 메타데이터(Metadata): 문서에 대한 다양한 정보를 설정
     - `base`, `link`, `meta`, `noscript`, `script`, `style`, `title`
 - 플로우(Flow): `body` 내부의 대부분의 요소는 플로우 콘텐츠로 분류
