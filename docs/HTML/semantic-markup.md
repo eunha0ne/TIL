@@ -30,7 +30,7 @@
     
 ## 콘텐츠 섹셔닝
     
-![HTML5 element flowchart](@asset/html/semantic-markup/flow-chart.png)
+![HTML5 element flowchart](@assets/html/semantic-markup/flow-chart.png)
 
 컨텐츠 모델(Contents Model)
 - 메타데이터(Metadata): 문서에 대한 다양한 정보를 설정
