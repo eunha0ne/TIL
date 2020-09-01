@@ -37,6 +37,19 @@ getComputedStyle(element).getPropertyValue("--my-var");
 element.style.setProperty("--my-var", jsVar + 4);
 ```
 
+## CSS.support()
+
+브라우저가 주어진 CSS featrue(기능)을 지원하는지 나타내는 `Boolean` 값을 리턴한다.
+ 
+```javascript
+CSS.supports("text-decoration-style", "blink");
+CSS.supports("display: flex");
+CSS.supports("(--foo: red)");
+CSS.supports(`(transform-style: preserve) or (-moz-transform-style: preserve)`);
+```
+
+> 지원 여부 확인에 따른 대안(fallback) 작성 가능
+
 ## Reference 
 
 - [https://developer.mozilla.org/ko/docs/Web/CSS](https://developer.mozilla.org/ko/docs/Web/CSS)
