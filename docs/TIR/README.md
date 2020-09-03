@@ -12,6 +12,7 @@
 - [Git 협업 가이드](https://velog.io/@jinuku/Git-%ED%98%91%EC%97%85-%EA%B0%80%EC%9D%B4%EB%93%9C)
 - [Git 브랜치 전략](https://velog.io/@jinuku/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%A0%84%EB%9E%B5)
 - [GitHub 환경에서의 실전 Git 레시피](https://meetup.toast.com/posts/116)
+- [git에서 원격저장소의 branch 가져오기](https://blog.outsider.ne.kr/641)
 
 ### 디자인 시스템
 
