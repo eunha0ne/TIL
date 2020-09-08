@@ -12,6 +12,7 @@
 - [Git 협업 가이드](https://velog.io/@jinuku/Git-%ED%98%91%EC%97%85-%EA%B0%80%EC%9D%B4%EB%93%9C)
 - [Git 브랜치 전략](https://velog.io/@jinuku/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%A0%84%EB%9E%B5)
 - [GitHub 환경에서의 실전 Git 레시피](https://meetup.toast.com/posts/116)
+- [git에서 원격저장소의 branch 가져오기](https://blog.outsider.ne.kr/641)
 
 ### 디자인 시스템
 
@@ -34,3 +35,8 @@
 
 - [취업 준비, 6주간의 회고록](https://velog.io/@addiescode/%EC%B7%A8%EC%97%85-%EC%A4%80%EB%B9%84-6%EC%A3%BC%EA%B0%84%EC%9D%98-%ED%9A%8C%EA%B3%A0%EB%A1%9D)
 - [코로나 시국 중 이직 경험기](https://velog.io/@jereint20/2020%EB%85%84-3%EC%9B%94-%EB%8F%8C%EC%95%84%EB%B3%B4%EA%B8%B0%EC%BD%94%EB%A1%9C%EB%82%98-%EC%8B%9C%EA%B5%AD-%EC%A4%91-%EC%9D%B4%EC%A7%81-%EA%B2%BD%ED%97%98%EA%B8%B0)
+
+### 폰트
+
+- [웹 폰트 사용과 최적화의 최근 동향 - D2](https://d2.naver.com/helloworld/4969726)
+- [웹폰트 최적화 기법에 관한 몇가지 이야기](https://showerbugs.github.io/2018-02-02/%EC%9B%B9%ED%8F%B0%ED%8A%B8-%EC%B5%9C%EC%A0%81%ED%99%94-%ED%95%98%EA%B8%B0)

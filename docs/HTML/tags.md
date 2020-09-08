@@ -38,8 +38,30 @@ export const HelloWorld = {
     } 
 };
 ```
- 
+
+## article 
+
+- 문서, 페이지, 애플리케이션, 또는 사이트 안에서 독립적으로 구분해 배포하거나 재사용할 수 있는 구획을 나타낸다.
+    - 게시판, 블로그 글, 매거진, 뉴스 기사 등
+- 각각의 `article` 요소는 식별할 수단이 필요. `h1` ~ `h6` 태그를 자식으로 포함해서 달성
+- `article` 요소를 중첩해서 사용한 경우, 안쪽에 있는 요소는 외부의 요소와 관련된 글임을 나타탬
+    - 예) 블로그의 글(articel)의 댓글을 `article` 요소로 사용
+- `article` 작성자 정보를 `address` 요소를 사용해서 제공 가능. 중첩 `article` 요소 안에서는 불가
+- `article` 작성일자를 `time` 요소의 `datetime` 속성을 사용해서 설명 가능
+
+```html
+<article class="user_review">
+  <p>Way too scary for me.</p>
+  <footer>
+    <p>
+      Posted on <time datetime="2015-05-16 19:00">May 16</time> by Lisa.
+    </p>
+  </footer>
+</article>
+```
+
 ## Reference 
 
 - [https://html.spec.whatwg.org/multipage/grouping-content.html#the-ul-element](https://html.spec.whatwg.org/multipage/grouping-content.html#the-ul-element)
 - [https://developer.mozilla.org/ko/docs/Web/HTML/Element/script](https://developer.mozilla.org/ko/docs/Web/HTML/Element/script)
+- [https://developer.mozilla.org/ko/docs/Web/HTML/Element/article](https://developer.mozilla.org/ko/docs/Web/HTML/Element/article)

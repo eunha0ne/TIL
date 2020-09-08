@@ -24,8 +24,8 @@ HTML 또는 SVG, XHTML 등과 같은 XML 방언으로 작성된 문서의 표현
 
 ```css
 div {
-    color: var(--color, red);
-    background: var(--bg-color, var(--color, red)); 
+    color: var(--font-color, red);
+    background: var(--bg-color, var(--font-color, red)); 
 }
 ```
 
