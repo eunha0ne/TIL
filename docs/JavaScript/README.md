@@ -74,8 +74,13 @@ switch (true) {
     }
 }
 ``` 
+
+## 키워드
+
+- [https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/this](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/this)
+- [https://dev.to/sag1v/javascript-the-this-key-word-in-depth-4pkm](https://dev.to/sag1v/javascript-the-this-key-word-in-depth-4pkm)
     
-## Reference
+## 참고
 
 - [https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Classes/Private_class_fields](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Classes/Private_class_fields)
 - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
