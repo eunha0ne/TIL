@@ -33,4 +33,13 @@ chflags hidden ~/usr
 > - 일반적인 텍스트 편집기 불가
 > - 미리 보기(macOS), 노션 등은 가능
 
+## 단축키
+
+- 이모지 사용하기: `컨트롤` + `커맨드` + `스페이스바`
+- (Spotlight) 검색: `커맨드` + `스페이스바`
+- 한/영 전환: `컨트롤` + `스페이스바` 또는 `캡스 록`
+
+참고:
+
+- [https://support.apple.com/ko-kr/guide/mac-help/mchlp1560/mac](https://support.apple.com/ko-kr/guide/mac-help/mchlp1560/mac)
 
