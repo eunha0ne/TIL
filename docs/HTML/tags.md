@@ -60,8 +60,20 @@ export const HelloWorld = {
 </article>
 ```
 
+## input
+
+autofocus: 
+
+- 페이지 로딩이 끝났을 때 인풋 요소에 자동 포커 여부를 결정
+    > Boolean Attribute
+    - 그러나 DOMContentLoaded 이벤트 이전에 발생할 수도 있음으로 주의 필요
+- **접근성을 고려한다면 사용을 피해야 한다.**
+    - 눈이 불편한 사용자가 스크린리더를 사용하고 있다면 오토포커스 설정으로 인한 커서의 순간 이동을 사전에 경고를 받지 못하기 때문에 좋지 않은 사용자 경험을 만든다. 또한 이러한 예기치 못한 상황은 인지에 불편함 가져오며 포커스된 대상 위쪽으로 생성된 콘텐츠를 뛰어 넘음으로 정보 누락을 야기할 수 있다.
+    > For better usability, avoid using autofocus. Automatically focusing on a form control can cause the page to scroll on load. The focus can also cause dynamic keyboards to display on some touch devices. While a screen reader will announce the label of the form control receiving focus, the screen reader will not announce anything before the label, and the sighted user on a small device will equally miss the context created by the preceding content.
+
 ## Reference 
 
 - [https://html.spec.whatwg.org/multipage/grouping-content.html#the-ul-element](https://html.spec.whatwg.org/multipage/grouping-content.html#the-ul-element)
 - [https://developer.mozilla.org/ko/docs/Web/HTML/Element/script](https://developer.mozilla.org/ko/docs/Web/HTML/Element/script)
 - [https://developer.mozilla.org/ko/docs/Web/HTML/Element/article](https://developer.mozilla.org/ko/docs/Web/HTML/Element/article)
+- [https://developer.mozilla.org/ko/docs/Web/HTML/Element/Input#htmlattrdefautofocus](https://developer.mozilla.org/ko/docs/Web/HTML/Element/Input#htmlattrdefautofocus)
