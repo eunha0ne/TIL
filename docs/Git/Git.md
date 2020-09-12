@@ -96,3 +96,4 @@ git stash apply [stash 이름]
 - [Cleaning up old git branches](http://ericfarkas.com/posts/cleaning-up-old-git-branches)
 - [게임으로 배우는 깃 명령어](https://learngitbranching.js.org/?locale=ko)
 - [Git stash 명령어 사용하기](https://gmlwjd9405.github.io/2018/05/18/git-stash.html)
+- [좋은 git 커밋 메시지를 작성하기 위한 7가지 약속: TOAST Meetup](https://meetup.toast.com/posts/106)
