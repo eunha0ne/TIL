@@ -54,6 +54,7 @@ exports.sideBarList = [
             'JavaScript/',
             'JavaScript/DOM.md',
             'JavaScript/fetch.md',
+            'JavaScript/UI-Event.md',
             'JavaScript/window.md'
         ]
     },
