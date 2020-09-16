@@ -17,3 +17,6 @@ basement_dist
 
 # Build Output
 /public
+
+# Local
+readings/
