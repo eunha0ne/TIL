@@ -8,7 +8,7 @@ const { sideBarList } = require('./sideBarList');
  */
 
 module.exports = {
-  title: 'TIL: Today I Learned',
+  title: 'Today I Learned',
   description: description,
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],

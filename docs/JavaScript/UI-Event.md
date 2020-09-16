@@ -33,7 +33,7 @@
 ### 결론
 
 - 입력 시점 감지는 `keypress` 이벤트 대신에 `keydown`, `keyup`을 사용하자.
-- 입력 값 감지는 `keyCode`, `code` 이벤트 대신에 `key`를 사용하자.
+- 입력 키 감지는 `keyCode`, `code` 이벤트 대신에 `key`를 사용하자.
 
 ### 참고
 
