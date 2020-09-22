@@ -46,7 +46,7 @@ function handleErrors(response) {
 fetch(url)
     .then(handleErrors)
     .then(response => doSomething())
-    .catch(error => console.log(error));
+    .catch(error => console.warn(error));
 ```
   
 ## 참고
