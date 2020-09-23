@@ -1,8 +1,6 @@
-# Today I Learned
+# Keywords
 
 > 공부한 내용을 기록하고 다음 참고를 위해 키워드를 관리합니다
-
-## Keywords
 
 - Vue.js with Typescript
 
