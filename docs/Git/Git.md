@@ -86,7 +86,47 @@ git stash
 git stash apply [stash 이름]
 ```
 
-## Reference
+### 태그 관리
+
+```bash
+# 목록 출력하기
+git tag
+
+# 목록 출력하기 (조건부)
+git tag -l [조건]
+git tag -l 1.0.*
+    
+
+# 추가하기
+git tag [태그 이름]
+
+# 추가하기 (annotated 형태)
+# 태그 생성자, 이메일, 날짜, 메시지를 함께 저장
+git tag -a [태그 이름] -m [메시지]
+
+# 추가하기 (이전 커밋에)
+git tag [태그 이름] [커밋 해쉬]
+git tag v1.0.43 03c0beb080
+
+# 조회하기
+git show [태그 이름]
+
+# 삭제하기
+git tag -d [태그 이름]
+
+# 저장소에 반영하기
+git push [원격 저장소 이름] [태그 이름]
+git push upstream v1.0.43
+
+# 저장소에 반영하기 (모두)
+git push upstream --tags
+
+# 저장소에 삭제 반영하기
+git push upstream :[태그 이름]
+git push upstream :v1.0.43
+```
+
+## 참고
 
 - [Git 사용 중에 자주 만나는 이슈 정리](https://parksb.github.io/article/28.html)
 - [자주 사용하는 기초 git 명령어](https://medium.com/@pks2974/%EC%9E%90%EC%A3%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EA%B8%B0%EC%B4%88-git-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%A0%95%EB%A6%AC%ED%95%98%EA%B8%B0-533b3689db81)
@@ -97,3 +137,4 @@ git stash apply [stash 이름]
 - [게임으로 배우는 깃 명령어](https://learngitbranching.js.org/?locale=ko)
 - [Git stash 명령어 사용하기](https://gmlwjd9405.github.io/2018/05/18/git-stash.html)
 - [좋은 git 커밋 메시지를 작성하기 위한 7가지 약속: TOAST Meetup](https://meetup.toast.com/posts/106)
+- [Tag 추가, 변경 및 삭제하기](http://minsone.github.io/git/git-addtion-and-modified-delete-tag)
