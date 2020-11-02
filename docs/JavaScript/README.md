@@ -87,3 +87,10 @@ switch (true) {
 - [행동 패턴](https://peter-cho.gitbook.io/book/12-gof/gof_2)
 - [책임 연쇄 패턴](https://ko.wikipedia.org/wiki/%EC%B1%85%EC%9E%84_%EC%97%B0%EC%87%84_%ED%8C%A8%ED%84%B4)
 - [typeof](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/typeof)
+
+- async-await
+    - [https://ko.javascript.info/async-await](https://ko.javascript.info/async-await)
+    - [https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/async_function](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/async_function)
+    - [https://blog.restcase.com/rest-api-error-codes-101/](https://blog.restcase.com/rest-api-error-codes-101/)
+    - [https://ko.javascript.info/try-catch](https://ko.javascript.info/try-catch)
+
