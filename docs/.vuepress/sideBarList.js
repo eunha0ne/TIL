@@ -1,5 +1,11 @@
 exports.sideBarList = [
     {
+      title: 'AWS',
+      children: [
+        'AWS/'
+      ]
+    },
+    {
         title: 'books',
         children: [
             'books/객체지향의-사실과-오해.md'
