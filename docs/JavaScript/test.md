@@ -1,7 +1,52 @@
 # 테스트
 
+NOTE: 
+
+다음 참고를 위한 (구) Jest 테스트 파일
+
+```js
+// __tests__/local-storage.test.js'
+import { $localStorage } from '../utils/local-storage.js';
+
+const localStorageMock = (function() {
+    let storage = {};
+    return {
+        getItem: function(key) {
+            return storage[key] || null;
+        },
+        setItem: function(key, value) {
+            storage[key] = value.toString();
+        }
+    };
+})();
+
+Object.assign(localStorage, { ...localStorageMock });
+
+describe('local-storage.js', () => {
+    describe('set(key: string, value: [])', () => {
+        it('should store given array to the localStorage with matching key.', () => {
+            $localStorage.set('keywords', ['a', 'b', 'c']);
+            expect($localStorage.get('keywords')).toEqual(['a', 'b', 'c']);
+        })
+
+        it('should be initilized key value on every attemp.', () => {
+            $localStorage.set('keywords', ['a']);
+            expect($localStorage.get('keywords')).toEqual(['a']);
+            $localStorage.set('keywords', ['b']);
+            expect($localStorage.get('keywords')).toEqual(['b']);
+        });
+    });
+
+    describe('set(key: string, value: {})', () => {
+        it('also working with Object model.', () => {
+            $localStorage.set('objectTest', { "a": 1 });
+            expect($localStorage.get('objectTest')).toEqual({ "a": 1 });
+        })
+    })
+});
+```
+
 ```javascript
-// localStorage.test.js
 import localStorage from './localStorage';
 
 describe('localStorage', () => {
