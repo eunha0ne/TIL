@@ -30,6 +30,7 @@ exports.sideBarList = [
         children: [
             'DevEnvironment/',
             'DevEnvironment/NPM.md',
+            'DevEnvironment/NVM.md',
             'DevEnvironment/Webpack.md'
         ]
     },
