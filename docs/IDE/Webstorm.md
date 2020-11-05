@@ -1,6 +1,16 @@
 # Webstorm
 
-사용자정의 확장자 파일에 코드 하이라이팅 적용 방법:
+## 런처 스크립트 등록하기
+
+macOS 기준:
+
+웹스톰 상단 메뉴 --> tools --> Create Launcher Script --> `/usr/local/bin/webstorm` 입력 --> OK
+
+(참고) Github Desktop의 런처 등록:
+
+깃헙 데스크탑 상단 메뉴 --> Create Launcher Script --> (자동 등록)
+
+## 사용자정의 확장자 파일에 코드 하이라이팅 적용 방법
 
 1. 예를들어 `.template` 파일에 코드 하이라이팅을 적용하기 위해서는 아래의 경로로 접근한다.
 
