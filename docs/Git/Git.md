@@ -40,10 +40,10 @@ rebase와 squash 명령어를 사용:
 - squash: 중복된 불필요한 커밋을 하나로 합침.
 - rebase: 개발한 내용(커밋들)을 병합할 브랜치의 가장 앞으로 이동하여, 동료 개발자들과 커밋 로그가 시간상으로 섞이는 것을 방지. 이 과정에서 그래프가 순차적으로 정렬되면서 읽기 쉬운 형태가 된다.
 
-```bash
+```shell script
 # 스쿼시 방법:
 # 예를들어, 헤드로부터 3번째 커밋까지 리베이스 진행하려면
-git rebase -i HEAD-3
+git rebase -i HEAD~3
 
 # 최근 커밋 히스토리에서 하나로 합칠 내용들을 `squash`로 변경
 # Before:
@@ -63,7 +63,7 @@ git rebase --continue
 
 ### 커밋하기 전 내용을 임시 저장하는 방법
 
-```bash
+```shell script
 # (스택에) 임시 저쟝:
 git stash
 
@@ -88,7 +88,7 @@ git stash apply [stash 이름]
 
 ### 태그 관리
 
-```bash
+```shell script
 # 목록 출력하기
 git tag
 
@@ -126,6 +126,23 @@ git push upstream :[태그 이름]
 git push upstream :v1.0.43
 ```
 
+## 기타 명령어들
+
+```shell script
+# To create a new branch and switch to it at the same time
+git checkout -b [브랜치 이름]
+
+# master --> main 브랜치로 반영하기
+# (마스터 체크아웃 상태)
+git branch -m master main
+git push -u origin main
+
+# 깃 로그 살펴보기
+# 메인(마스터) 브랜치와 목표 브랜치를 비교하여, 목표 브랜치 히스토리만 보여줌
+git log main..[목표 브랜치 이름] [--옵션] 
+git log main..hotfix/FN-103 --oneline
+```
+
 ## 참고
 
 - [Git 사용 중에 자주 만나는 이슈 정리](https://parksb.github.io/article/28.html)
@@ -138,3 +155,4 @@ git push upstream :v1.0.43
 - [Git stash 명령어 사용하기](https://gmlwjd9405.github.io/2018/05/18/git-stash.html)
 - [좋은 git 커밋 메시지를 작성하기 위한 7가지 약속: TOAST Meetup](https://meetup.toast.com/posts/106)
 - [Tag 추가, 변경 및 삭제하기](http://minsone.github.io/git/git-addtion-and-modified-delete-tag)
+- [https://evan-moon.github.io/2019/08/30/commit-history-merge-strategy/](https://evan-moon.github.io/2019/08/30/commit-history-merge-strategy/)
