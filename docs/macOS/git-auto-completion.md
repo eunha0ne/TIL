@@ -11,7 +11,7 @@
 
 1. 자신의 macOS에서 자동 완성을 도와주는 스크립트 파일이 있는지 살펴본다.
 
-   ```zsh
+   ```shell script
    # 검색 명렁어:
    sudo find / -type f -name "git-completion.bash"
    ```
@@ -28,7 +28,7 @@
 
 3. 스크립트 파일을 아래의 경로로 복사 붙여넣기 한다.
 
-   ```zsh
+   ```shell script
    # 경로:
    /usr/local/etc/bash_completion.d
 
@@ -39,7 +39,7 @@
 
 4. 추가된 배쉬 스크립트 파일을 프로필을 갱신해서 불러온다.
 
-   ```zsh
+   ```shell script
    # 프로필 갱신:
    source ~/.bash_profile
    ```
@@ -48,7 +48,7 @@
 
 1. 스크립트 파일을 `.zsh` 폴더에 다운로드 한다.
 
-   ```zsh
+   ```shell script
    # 파일 다운로드:
    cd
    cd .zsh
@@ -57,7 +57,7 @@
 
 2. root 경로에서 `.zshrc` 파일을 생성하고(없다면), 아래의 내용을 작성한다.
 
-   ```zsh
+   ```shell script
    # 파일 생성:
    touch .zshrc
 
@@ -72,7 +72,7 @@
 
 3. 터미널에서 아래의 명령어를 입력한다.
 
-   ```zsh
+   ```shell script
    # 변수와 함수 불러오기:
    source ~/.zshrc
    ```
@@ -82,7 +82,7 @@
    > 터미널을 실행할 때마다 반복적으로 나타나기 때문에,
    > 매번 `y`를 입력해서 실행 명령을 하면 불편하다. 이는 권한 설정을 통해 해결할 수 있다.
 
-   ```zsh
+   ```shell script
    # insecure directories를 나열:
    compaudit
 
@@ -93,8 +93,8 @@
    sudo chown -R {사용자_uid} {목표_디렉토리}
    sudo chmod -R 755 {목표_디렉토리}
 
-   # 예제)
-   # sudo chmod -R 755 /usr/local/share/zsh/site-functions
+   # 예시
+   sudo chmod -R 755 /usr/local/share/zsh
    ```
 
 ## Reference
