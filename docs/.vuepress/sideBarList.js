@@ -1,29 +1,23 @@
 exports.sideBarList = [
     {
-      title: 'AWS',
-      children: [
-        'AWS/'
-      ]
+        title: 'AWS',
+        children: ['AWS/'],
     },
     {
         title: 'books',
-        children: [
-            'books/객체지향의-사실과-오해.md'
-        ]
+        children: ['books/객체지향의-사실과-오해.md'],
     },
     {
         title: 'Career',
-        children: [
-            'Career/'
-        ]
+        children: ['Career/'],
+    },
+    {
+        title: 'CS',
+        children: ['CS/'],
     },
     {
         title: 'CSS',
-        children: [
-            'CSS/',
-            'CSS/media-query.md',
-            'CSS/pseudo.md'
-        ]
+        children: ['CSS/', 'CSS/media-query.md', 'CSS/pseudo.md'],
     },
     {
         title: 'DevEnvironment',
@@ -31,29 +25,20 @@ exports.sideBarList = [
             'DevEnvironment/',
             'DevEnvironment/NPM.md',
             'DevEnvironment/NVM.md',
-            'DevEnvironment/Webpack.md'
-        ]
+            'DevEnvironment/Webpack.md',
+        ],
     },
     {
         title: 'Git',
-        children: [
-            'Git/Git.md'
-        ]
+        children: ['Git/Git.md'],
     },
     {
         title: 'HTML',
-        children: [
-            'HTML/',
-            'HTML/semantic-markup.md',
-            'HTML/tags.md'
-        ]
+        children: ['HTML/', 'HTML/semantic-markup.md', 'HTML/tags.md'],
     },
     {
         title: 'IDE',
-        children: [
-            'IDE/',
-            'IDE/Webstorm.md'
-        ]
+        children: ['IDE/', 'IDE/Webstorm.md'],
     },
     {
         title: 'JavaScript',
@@ -64,40 +49,27 @@ exports.sideBarList = [
             'JavaScript/intersection-observer.md',
             'JavaScript/promise.md',
             'JavaScript/UI-Event.md',
-            'JavaScript/window.md'
-        ]
+            'JavaScript/window.md',
+        ],
     },
     {
         title: 'Linux',
-        children: [
-            'Linux/Linux.md',
-            'Linux/shell-script.md'
-        ]
+        children: ['Linux/Linux.md', 'Linux/shell-script.md'],
     },
     {
         title: 'macOS',
-        children: [
-            'macOS/',
-            'macOS/git-auto-completion.md',
-        ]
+        children: ['macOS/', 'macOS/git-auto-completion.md'],
     },
     {
         title: 'TIR',
-        children: [
-            'TIR/'
-        ]
+        children: ['TIR/'],
     },
     {
         title: 'Vim',
-        children: [
-            'Vim/Vim.md'
-        ]
+        children: ['Vim/Vim.md'],
     },
     {
         title: 'Vue',
-        children: [
-            'Vue/Vue.md',
-            'Vue/vue-press.md'
-        ]
-    }
-];
+        children: ['Vue/Vue.md', 'Vue/vue-press.md'],
+    },
+]
