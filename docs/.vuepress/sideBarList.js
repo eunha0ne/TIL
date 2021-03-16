@@ -23,7 +23,7 @@ exports.sideBarList = [
     title: 'DevEnvironment',
     children: [
       'DevEnvironment/',
-      'DevEnvironment/MonoRepo',
+      'DevEnvironment/MonoRepo.md',
       'DevEnvironment/NPM.md',
       'DevEnvironment/NVM.md',
       'DevEnvironment/Webpack.md',
@@ -31,7 +31,7 @@ exports.sideBarList = [
   },
   {
     title: 'Git',
-    children: ['Git/Git.md'],
+    children: ['Git/Git.md', 'Git/Github.md'],
   },
   {
     title: 'HTML',
@@ -40,6 +40,10 @@ exports.sideBarList = [
   {
     title: 'IDE',
     children: ['IDE/', 'IDE/Webstorm.md'],
+  },
+  {
+    title: 'IT',
+    children: ['IT/'],
   },
   {
     title: 'JavaScript',
