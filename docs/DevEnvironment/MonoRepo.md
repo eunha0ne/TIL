@@ -15,9 +15,9 @@ lerna init
 
 ## 주요 명령어
 
-### import
+### Import
 
-> Import the package in the local path <pathToRepo> into packages/<directory-name> with commit history.
+> Import the package in the local path `<pathToRepo>` into `packages/<directory-name>` with commit history.
 
 ```shell script
 # lerna import <pathToRepo>
