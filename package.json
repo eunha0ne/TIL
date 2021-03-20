@@ -1,9 +1,12 @@
 {
   "name": "til",
-  "description": "공부한 내용을 기록하고 참고를 위해 키워드를 관리합니다",
+  "version": "1.0.0",
+  "repository": "https://github.com/eunha0ne/TIL.git",
+  "description": "오늘 배운 내용을 기록하고, 다음 참고를 위해 키워드를 정리합니다.",
   "authors": {
-    "name": "eunha0ne"
+    "name": "gyuusik <gs.kim@birdview.kr>"
   },
+  "license": "MIT",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
